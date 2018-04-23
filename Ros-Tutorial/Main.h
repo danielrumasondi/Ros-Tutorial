@@ -531,6 +531,7 @@ void DrawMenu(LPDIRECT3DDEVICE9 pDevice)
 
 		Current = 1;
 
+		WriteText(74.f, 62.0f, D3DCOLOR_ARGB(255, 245, 000, 000), "YOUR TITLE IN HERE");
 		AddItem(pDevice, " Wallhack", wallhack, opt_WhChams, 2);
 		AddItem(pDevice, " No Fog", nofog, opt_OnOff, 1);
 		AddItem(pDevice, " No Grass", nograss, opt_OnOff, 1);
