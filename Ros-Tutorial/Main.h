@@ -593,11 +593,11 @@ DWORD WINAPI ThisIsFeature()
 
 	if (nofog == 1)
 	{
-		PacthHook((void *)(ResultFOG), (int*)(PBYTE)"\xF3\x0F\x11\x4D\xE8", 5);
+		PacthHook((void *)(ResultFOG), (int*)(PBYTE)"\xF3\x0F\x11\x4D", 4);
 	}
 	if (nofog == 0)
 	{
-		PacthHook((void *)(ResultFOG), (int*)(PBYTE)"\xF3\x0F\x11\x45\xE8", 5);
+		PacthHook((void *)(ResultFOG), (int*)(PBYTE)"\xF3\x0F\x11\x45", 4);
 	}
 	return (0);
 }
