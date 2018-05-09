@@ -44,5 +44,5 @@ DwSize = 0xF0000000;
 
 		 ResultSpeed = DwSpeed + 0x6;
 		 ResultFall  = DwFall + 0xF;
-		 ResultFOG  = DwFOG;
+		 ResultFOG  = DwFOG + 0x1A;
 }
