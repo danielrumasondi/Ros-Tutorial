@@ -564,7 +564,7 @@ void PacthHook(void *adress,void *bytes,int size)
 }
 
 DWORD MODULEROS = (DWORD)GetModuleHandleA("ros.exe");
-DWORD InGameAdrress = (MODULEROS+0x1E22078); 
+DWORD InGameAdrress = (MODULEROS+0x1E21F28); 
 //scan with cheat engine type array of byte
 //09 6C 6F ? 64 5F 6C 61 79 ? 72 ? 63 6F ? 66 69 67 ? 63 6F 6E 66 69 67 ? 70 61 74 ? 29 0A - 1E
 // or scan with cheat engine type string
